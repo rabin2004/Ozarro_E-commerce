@@ -23,8 +23,7 @@ public class TestBase {
 		// to load config.property file and load values from it
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Users\\User\\Desktop\\eclipse\\OzzaroApp\\src\\"
-					+ "main\\java\\com\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\mona0\\Desktop\\Ozzrow\\Ozarro_E-commerce\\src\\main\\java\\com\\qa\\config\\config.properties");
 			prop.load(ip);
 		}
 		
@@ -41,7 +40,7 @@ public class TestBase {
 		String browser_name = prop.getProperty("browser");
 		
 		if (browser_name.equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", "E:\\Drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\mona0\\\\Downloads\\\\chromedriver_win32\\\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		// for cross browser testing

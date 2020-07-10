@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="98.910231">
+    <testcase classname="Title of your feature" name="plus sign quantity increase" time="22.047675">
+        <system-out>
+            <![CDATA[Given User enters url "https://ozarro.shop/"................................passed
+And click on shop link......................................................passed
+When user click on Headphones USB Wires product.............................passed
+And user clicks on plus sign................................................passed
+Then number of product quantity should increased............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="Headphones USB Wires" time="14.494271">
+        <system-out>
+            <![CDATA[Given User enters url "https://ozarro.shop/"................................passed
+And click on shop link......................................................passed
+When user click on Headphones USB Wires product.............................passed
+Then user should be able to see Headphones USB..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="Edit quantity box" time="23.834096">
+        <system-out>
+            <![CDATA[Given User enters url "https://ozarro.shop/"................................passed
+And click on shop link......................................................passed
+When user click on Headphones USB Wires product.............................passed
+And user can type the number of quantity....................................passed
+Then edit box should be editable............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="Search button functionality" time="19.677799">
+        <system-out>
+            <![CDATA[Given User enters url "https://ozarro.shop/"................................passed
+And click on shop link......................................................passed
+When user clicks on search button...........................................passed
+Then user should see list of products.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="User can search by pressing enter key" time="18.85639">
+        <system-out>
+            <![CDATA[Given User enters url "https://ozarro.shop/"................................passed
+And click on shop link......................................................passed
+When user types on laptop...................................................passed
+And user presses enter key..................................................passed
+Then user should see search results contains word laptop....................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
